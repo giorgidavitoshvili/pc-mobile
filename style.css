@@ -6,6 +6,63 @@
 body{
     background-color: #F7F7F7
 }
+.sect1{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+}
+.mainlogo{
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 27px;
+    height: 27px;
+    border: 8px solid white;
+    border-radius: 50%;
+    z-index: 10;
+}
+nav{
+    width: 500px;
+    z-index: 10;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    z-index: 10;
+}
+li{
+    color: #FFFFFF;
+    border: none;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 18px;
+    letter-spacing: 1.2px;
+    z-index: 10;
+}
+ul :first-child{
+    border-left: none;
+    z-index: 10;
+}
+.blocking{
+    position: absolute;
+    right: 250px;
+    top: 10px;
+}
+.backpic p{
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 830px;
+    left: 400px;
+}
 .sect2{
     max-width: 1440px;
     width: 100%;
